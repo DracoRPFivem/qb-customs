@@ -94,6 +94,45 @@ Config.Locations = {
             { coords = vector3(-222.47, -1329.73, 31.0), length = 6.0, width = 4.0, heading = 270.0, minZ = 29.88, maxZ = 33.48 },
         }
     },
+    
+    ['Mosleys'] = {
+        settings = {
+            label = 'Mosleys Repar',
+            welcomeLabel = "Welcome to Mosley's Motorworks!",
+            enabled = true,
+        },
+        blip = {
+            label = 'Mosleys Repair',
+            coords = vector3(-28.5, -1654.34, 29.48),
+            sprite = 72,
+            scale = 0.65,
+            color = 0,
+            display = 4,
+            enabled = true,
+        },
+        categories = {
+            mods = true,
+            turbo = true,
+            repair = true,
+            respray = true,
+            liveries = true,
+            wheels = true,
+            tint = true,
+            plate = true,
+            extras = true,
+            neons = true,
+            xenons = true,
+            horn = true,
+            cosmetics = true,
+        },
+        drawtextui = {
+            text = "Mosleys Repair Shop"
+        },
+        restrictions = { deniedClasses = { 18 } },
+        zones = {
+            { coords = vector3(-7.79, -1663.99, 29.48), length = 6.0, width = 4.0, heading = 270.0, minZ = 29.88, maxZ = 33.48 },
+        }
+    },
 
     ['Power'] = {
         settings = {
