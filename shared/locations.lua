@@ -71,19 +71,20 @@ Config.Locations = {
             enabled = true,
         },
         categories = {
-            mods = true,
-            turbo = true,
+            mods = false, -- Performance Mods
             repair = true,
+            armor = false,
             respray = true,
-            liveries = true,
+            liveries = false,
             wheels = true,
             tint = true,
-            plate = true,
+            plate = false,
             extras = true,
             neons = true,
             xenons = true,
             horn = true,
-            cosmetics = true,
+            turbo = false,
+            cosmetics = true, -- Cosmetic Mods
         },
         drawtextui = {
             text = "Bennys Motorworks"
@@ -92,45 +93,6 @@ Config.Locations = {
         zones = {
             { coords = vector3(-212.55, -1320.56, 31.0), length = 6.0, width = 4.0, heading = 270.0, minZ = 29.88, maxZ = 33.48 },
             { coords = vector3(-222.47, -1329.73, 31.0), length = 6.0, width = 4.0, heading = 270.0, minZ = 29.88, maxZ = 33.48 },
-        }
-    },
-    
-    ['Mosleys'] = {
-        settings = {
-            label = 'Mosleys Repar',
-            welcomeLabel = "Welcome to Mosley's Motorworks!",
-            enabled = true,
-        },
-        blip = {
-            label = 'Mosleys Repair',
-            coords = vector3(-28.5, -1654.34, 29.48),
-            sprite = 72,
-            scale = 0.65,
-            color = 0,
-            display = 4,
-            enabled = true,
-        },
-        categories = {
-            mods = true,
-            turbo = true,
-            repair = true,
-            respray = true,
-            liveries = true,
-            wheels = true,
-            tint = true,
-            plate = true,
-            extras = true,
-            neons = true,
-            xenons = true,
-            horn = true,
-            cosmetics = true,
-        },
-        drawtextui = {
-            text = "Mosleys Repair Shop"
-        },
-        restrictions = { deniedClasses = { 18 } },
-        zones = {
-            { coords = vector3(-7.79, -1663.99, 29.48), length = 6.0, width = 4.0, heading = 270.0, minZ = 29.88, maxZ = 33.48 },
         }
     },
 
@@ -150,19 +112,19 @@ Config.Locations = {
             enabled = true,
         },
         categories = {
-            mods = true,
-            turbo = true,
+            mods = false,
+            turbo = false,
             repair = true,
             respray = true,
-            liveries = true,
-            wheels = true,
-            tint = true,
-            plate = true,
-            extras = true,
-            neons = true,
-            xenons = true,
-            horn = true,
-            cosmetics = true,
+            liveries = false,
+            wheels = false,
+            tint = false,
+            plate = false,
+            extras = false,
+            neons = false,
+            xenons = false,
+            horn = false,
+            cosmetics = false,
         },
         drawtextui = {
             text = "Bennys Motorworks"
@@ -178,7 +140,7 @@ Config.Locations = {
         settings = {
             label = 'Customs Motorworks',
             welcomeLabel = "Welcome to Customs Motorworks!",
-            enabled = true,
+            enabled = false,
         },
         blip = {
             label = 'Bennys Motorworks',
@@ -187,7 +149,7 @@ Config.Locations = {
             scale = 0.65,
             color = 0,
             display = 4,
-            enabled = true,
+            enabled = false,
         },
         categories = {
             mods = true,
@@ -230,19 +192,19 @@ Config.Locations = {
             enabled = true,
         },
         categories = {
-            mods = true,
-            turbo = true,
+            mods = false,
+            turbo = false,
             repair = true,
             respray = true,
-            liveries = true,
-            wheels = true,
-            tint = true,
-            plate = true,
-            extras = true,
-            neons = true,
-            xenons = true,
-            horn = true,
-            cosmetics = true,
+            liveries = false,
+            wheels = false,
+            tint = false,
+            plate = false,
+            extras = false,
+            neons = false,
+            xenons = false,
+            horn = false,
+            cosmetics = false,
         },
         drawtextui = {
             text = "Harmony Motorworks"
@@ -256,13 +218,13 @@ Config.Locations = {
 
     ['Hayes'] = {
         settings = {
-            label = 'Hayes Motorworks',
-            welcomeLabel = "Welcome to Hayes Motorworks!",
+            label = 'Mosleys Motorworks',
+            welcomeLabel = "Welcome to Mosleys Motorworks!",
             enabled = true,
         },
         blip = {
-            label = 'Bennys Motorworks',
-            coords = vector3(-1420.1882, -441.8745, 35.9097),
+            label = 'Mosleys Motorworks',
+            coords = vector3(-35.74, -1659.73, 29.48),
             sprite = 72,
             scale = 0.65,
             color = 0,
@@ -270,26 +232,28 @@ Config.Locations = {
             enabled = true,
         },
         categories = {
-            repair = true,
-            turbo = true,
-            respray = true,
-            liveries = true,
-            wheels = true,
-            tint = true,
-            plate = true,
-            extras = true,
-            neons = true,
-            xenons = true,
-            horn = true,
-            cosmetics = true,
+        mods = true, -- Performance Mods
+        repair = true,
+        armor = true,
+        respray = true,
+        liveries = true,
+        wheels = true,
+        tint = true,
+        plate = true,
+        extras = true,
+        neons = true,
+        xenons = true,
+        horn = true,
+        turbo = true,
+        cosmetics = true, -- Cosmetic Mods
         },
         drawtextui = {
             text = "Hayes Motorworks"
         },
         restrictions = { deniedClasses = { 18 } },
+        restrictions = { job = {"mechanic"} },
         zones = {
-            { coords = vector3(-1417.12, -445.98, 35.91), length = 6.0, width = 4.0, heading = 32.0, minZ = 35.0, maxZ = 39.0 },
-            { coords = vector3(-1423.67, -450.03, 35.91), length = 6.0, width = 4.0, heading = 32.0, minZ = 35.0, maxZ = 39.0 },
+            { coords = vector3(-9.13, -1662.08, 29.07), length = 6.0, width = 4.0, heading = 234.35, minZ = 29.00, maxZ = 32.0 },
         }
     },
 
@@ -309,19 +273,19 @@ Config.Locations = {
             enabled = true,
         },
         categories = {
-            mods = true,
-            turbo = true,
+            mods = false,
+            turbo = false,
             repair = true,
             respray = true,
-            liveries = true,
-            wheels = true,
-            tint = true,
-            plate = true,
-            extras = true,
-            neons = true,
-            xenons = true,
-            horn = true,
-            cosmetics = true,
+            liveries = false,
+            wheels = false,
+            tint = false,
+            plate = false,
+            extras = false,
+            neons = false,
+            xenons = false,
+            horn = false,
+            cosmetics = false,
         },
         drawtextui = {
             text = "Billys Motorworks"
@@ -337,7 +301,7 @@ Config.Locations = {
         settings = {
             label = 'Tunershop',
             welcomeLabel = "Welcome to the Tunershop!",
-            enabled = true,
+            enabled = false,
         },
         blip = {
             label = 'Tunershop',
