@@ -218,13 +218,13 @@ Config.Locations = {
 
     ['Hayes'] = {
         settings = {
-            label = 'Mosleys Motorworks',
-            welcomeLabel = "Welcome to Mosleys Motorworks!",
+            label = 'Otto Motorworks',
+            welcomeLabel = "Welcome to Otto's Auto Motorworks!",
             enabled = true,
         },
         blip = {
-            label = 'Mosleys Motorworks',
-            coords = vector3(-35.74, -1659.73, 29.48),
+            label = 'Ottos Auto Motorworks',
+            coords = vector3(829.45, -818.99, 26.33),
             sprite = 72,
             scale = 0.65,
             color = 0,
@@ -248,12 +248,12 @@ Config.Locations = {
         cosmetics = true, -- Cosmetic Mods
         },
         drawtextui = {
-            text = "Hayes Motorworks"
+            text = "Ottos Motorworks"
         },
         restrictions = { deniedClasses = { 18 } },
         restrictions = { job = {"mechanic"} },
         zones = {
-            { coords = vector3(-9.13, -1662.08, 29.07), length = 6.0, width = 4.0, heading = 234.35, minZ = 29.00, maxZ = 32.0 },
+            { coords = vector3(830.85, -820.36, 26.33), length = 6.0, width = 4.0, heading = 90.99, minZ = 24.00, maxZ = 28.0 },
         }
     },
 
